@@ -22,7 +22,7 @@
     0.28 0.08 259
   ); /* Dark text for better contrast on cyan */
   --accent: oklch(
-    0.6 0.23 25
+    79.883% 0.10747 19.666 / 0.85
   ); /* The bright red from the navigation and buttons */
   --accent-foreground: oklch(1 0 0); /* White text for accent elements */
   --muted: oklch(0.94 0.01 250); /* A light grey for muted backgrounds */

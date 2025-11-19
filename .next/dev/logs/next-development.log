@@ -1,3 +1,2405 @@
 [00:00:01.387] Server  LOG      ✓ Ready in 1076ms
 [00:00:26.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:00:26.526] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:35.196] Server  LOG      ✓ Compiled in 2.8s
+[00:04:20.899] Server  LOG      ✓ Compiled in 3.9s
+[00:05:11.094] Server  LOG      ✓ Compiled in 30.5s
+[00:05:16.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:16.442] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:35.943] Server  LOG      ✓ Compiled in 5.2s
+[00:06:10.221] Server  LOG      ✓ Compiled in 1451ms
+[00:06:40.165] Server  LOG      ✓ Compiled in 9ms
+[00:08:38.616] Server  LOG      ✓ Compiled in 865ms
+[00:09:17.035] Server  LOG      ✓ Compiled in 6.4s
+[00:11:08.988] Server  LOG      ✓ Compiled in 475ms
+[00:12:45.877] Server  LOG      ✓ Compiled in 6.1s
+[00:14:02.852] Server  LOG      ✓ Compiled in 1393ms
+[00:14:17.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:17.636] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:41.312] Server  LOG      ✓ Compiled in 19.6s
+[00:16:54.273] Server  LOG      ✓ Compiled in 5.7s
+[00:17:19.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:19.747] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:47.522] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/header.tsx:352:1
+Parsing ecmascript source code failed
+  350 |     </header>
+  351 |   );
+> 352 | }
+      | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/header.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[00:21:23.383] Server  LOG      ✓ Compiled in 3.6s
+[00:24:32.229] Server  LOG      ✓ Compiled in 8.4s
+[00:28:37.085] Server  LOG      ✓ Compiled in 647ms
+[00:30:49.541] Server  LOG      ✓ Compiled in 6.3s
+[00:33:35.178] Server  LOG      ✓ Compiled in 2.3s
+[00:34:03.765] Server  LOG      ✓ Compiled in 4.2s
+[00:34:17.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:18.919] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:21.348] Server  LOG      ✓ Compiled in 946ms
+[00:37:59.493] Server  LOG      ✓ Compiled in 4s
+[00:38:08.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:09.162] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:27.045] Server  LOG      ✓ Compiled in 6.7s
+[00:39:40.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:40.647] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:40:08.832] Server  LOG      ✓ Compiled in 1320ms
+[00:40:28.953] Server  LOG      ✓ Compiled in 1626ms
+[00:40:45.166] Server  LOG      ✓ Compiled in 4.9s
+[00:41:01.920] Server  LOG      ✓ Compiled in 3.8s
+[00:41:07.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:07.417] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:42:36.891] Server  LOG      ✓ Compiled in 926ms
+[00:42:51.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:51.873] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:42:59.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:59.897] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:45:07.164] Server  LOG      ✓ Compiled in 679ms
+[00:46:18.189] Server  LOG      ✓ Compiled in 483ms
+[00:47:57.938] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/header.tsx:282:5
+Parsing ecmascript source code failed
+  280 |     />
+  281 |   </svg>
+> 282 | );```
+      |     ^
+
+Unterminated template
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/header.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[00:48:08.391] Server  LOG      ✓ Compiled in 2.9s
+[00:48:08.950] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/header.tsx:282:5
+Parsing ecmascript source code failed
+  280 |     />
+  281 |   </svg>
+> 282 | );```
+      |     ^
+
+Unterminated template
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/header.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[00:48:16.007] Server  LOG      ✓ Compiled in 563ms
+[00:49:01.272] Server  LOG      ✓ Compiled in 9.1s
+[00:49:05.716] Server  LOG      ✓ Compiled in 1818ms
+[00:49:55.558] Server  LOG      ✓ Compiled in 526ms
+[00:50:35.101] Server  LOG      ✓ Compiled in 3.4s
+[00:51:51.151] Server  LOG      ✓ Compiled in 15.7s
+[00:52:47.331] Server  LOG      ✓ Compiled in 1439ms
+[00:54:18.327] Server  LOG      ✓ Compiled in 16.7s
+[00:54:20.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:21.059] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:56:15.326] Server  LOG      ✓ Compiled in 825ms
+[00:57:14.938] Server  LOG      ✓ Compiled in 2.3s
+[00:57:47.407] Server  LOG      ✓ Compiled in 2.2s
+[00:58:36.916] Server  LOG      ✓ Compiled in 2.5s
+[00:58:59.601] Server  LOG      ✓ Compiled in 2.1s
+[03:10:40.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:14:44.021] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:42:29.133] Server  LOG      ✓ Compiled in 1999ms
+[04:42:30.196] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:46:09.904] Server  LOG      ✓ Compiled in 3.7s
+[04:46:48.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:46:48.935] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:48:46.160] Server  LOG      ✓ Compiled in 940ms
+[04:52:34.087] Server  LOG      ✓ Compiled in 993ms
+[04:52:57.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:53:01.078] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:53:01.342] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:55:45.661] Server  LOG      ✓ Compiled in 1202ms
+[04:58:29.633] Server  LOG      ✓ Compiled in 1376ms
+[04:59:01.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:59:01.702] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:02:24.773] Server  LOG      ✓ Compiled in 1021ms
+[05:04:50.519] Server  LOG      ✓ Compiled in 7s
+[05:08:01.215] Server  LOG      ✓ Compiled in 846ms
+[05:08:13.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:08:13.779] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:10:52.280] Server  LOG      ✓ Compiled in 1223ms
+[05:11:06.847] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:11:07.072] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:12:37.799] Server  LOG      ✓ Compiled in 1058ms
+[05:13:17.901] Server  LOG      ✓ Compiled in 220ms
+[05:13:38.082] Server  LOG      ✓ Compiled in 1014ms
+[05:13:45.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:13:45.814] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:14:01.091] Server  LOG      ✓ Compiled in 1829ms
+[05:14:37.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:14:37.607] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:14:55.998] Server  LOG      ✓ Compiled in 331ms
+[05:15:06.403] Server  LOG      ✓ Compiled in 456ms
+[05:16:21.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:16:22.205] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:17:42.503] Server  LOG      ✓ Compiled in 612ms
+[05:20:39.489] Server  LOG      ✓ Compiled in 2.6s
+[05:21:36.877] Server  LOG      ✓ Compiled in 11.3s
+[05:24:14.860] Server  LOG      ✓ Compiled in 1143ms
+[05:24:16.665] Server  ERROR    ⨯ ReferenceError: selectedIndex is not defined
+[05:24:16.909] Server  ERROR    ⨯ ReferenceError: selectedIndex is not defined
+[05:24:20.332] Server  ERROR    ⨯ ReferenceError: selectedIndex is not defined
+[05:24:20.969] Server  ERROR    ⨯ ReferenceError: selectedIndex is not defined
+[05:24:21.689] Browser ERROR   uncaughtError: ReferenceError: selectedIndex is not defined
+[05:24:43.532] Server  LOG      ✓ Compiled in 2.7s
+[05:24:48.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:24:48.618] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:25:51.616] Server  LOG      ✓ Compiled in 391ms
+[05:25:51.943] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:207:5
+Parsing ecmascript source code failed
+  205 |         </div>
+  206 |       </div>
+> 207 |     </section>
+      |     ^
+  208 |   );
+  209 | }
+  210 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:25:51.943] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:207:6
+Parsing ecmascript source code failed
+  205 |         </div>
+  206 |       </div>
+> 207 |     </section>
+      |      ^^^^^^^^^
+  208 |   );
+  209 | }
+  210 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:25:55.084] Server  LOG      ✓ Compiled in 145ms
+[05:28:07.250] Server  LOG      ✓ Compiled in 962ms
+[05:28:07.987] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[05:30:15.044] Server  LOG      ✓ Compiled in 559ms
+[05:30:47.558] Server  LOG      ✓ Compiled in 799ms
+[05:32:32.076] Server  LOG      ✓ Compiled in 710ms
+[05:32:41.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:32:42.226] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:33:06.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:33:06.973] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:34:26.347] Server  LOG      ✓ Compiled in 535ms
+[05:34:26.942] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:222:9
+Parsing ecmascript source code failed
+  220 |          </button>
+  221 |        <
+> 222 |         </div>
+      |         ^
+  223 |       </div>
+  224 |     </section>
+  225 |   );
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:34:26.942] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:222:10
+Parsing ecmascript source code failed
+  220 |          </button>
+  221 |        <
+> 222 |         </div>
+      |          ^^^^^
+  223 |       </div>
+  224 |     </section>
+  225 |   );
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:34:49.947] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:222:9
+Parsing ecmascript source code failed
+  220 |        <
+  221 |
+> 222 |         </div>
+      |         ^
+  223 |       </div>
+  224 |     </section>
+  225 |   );
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:34:49.949] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:222:10
+Parsing ecmascript source code failed
+  220 |        <
+  221 |
+> 222 |         </div>
+      |          ^^^^^
+  223 |       </div>
+  224 |     </section>
+  225 |   );
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:34:52.147] Server  LOG      ✓ Compiled in 129ms
+[05:34:52.943] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:226:1
+Parsing ecmascript source code failed
+  224 |     </section>
+  225 |   );
+> 226 | }
+      | ^
+  227 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:35:05.893] Server  LOG      ✓ Compiled in 347ms
+[05:36:13.197] Server  LOG      ✓ Compiled in 807ms
+[05:36:38.897] Server  LOG      ✓ Compiled in 972ms
+[05:40:31.048] Server  LOG      ✓ Compiled in 399ms
+[05:40:58.349] Server  LOG      ✓ Compiled in 155ms
+[05:40:58.946] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:183:9
+Parsing ecmascript source code failed
+  181 | <TiltCard
+  182 |
+> 183 |         </div>
+      |         ^
+  184 |       </div>
+  185 |     </section>
+  186 |   );
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:40:58.946] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:183:10
+Parsing ecmascript source code failed
+  181 | <TiltCard
+  182 |
+> 183 |         </div>
+      |          ^^^^^
+  184 |       </div>
+  185 |     </section>
+  186 |   );
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:41:00.171] Server  LOG      ✓ Compiled in 380ms
+[05:44:11.985] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export TiltCard doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { TiltCard } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export TiltCard was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import TiltCardAdmissions?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:44:11.985] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export TiltCard doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { TiltCard } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export TiltCard was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import TiltCardAdmissions?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:46:51.471] Server  LOG      ✓ Compiled in 1469ms
+[05:46:52.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:46:53.132] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:49:20.478] Server  LOG      ✓ Compiled in 1334ms
+[05:49:20.600] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/b_g4jMW8LyWHK/components/hero.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:49:22.046] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[05:49:22.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:50:04.986] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[05:50:05.006] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:50:05.010] Server  LOG      ✓ Compiled in 165ms
+[05:50:05.387] Server  ERROR    ⨯ ReferenceError: Magneticbutton is not defined
+[05:50:05.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:50:06.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:50:06.949] Browser ERROR   uncaughtError: ReferenceError: Magneticbutton is not defined
+[05:50:06.964] Server  LOG      ✓ Compiled in 88ms
+[05:50:07.271] Server  ERROR    ⨯ ReferenceError: MagneticMenu is not defined
+[05:50:07.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:50:11.650] Browser ERROR   uncaughtError: ReferenceError: MagneticMenu is not defined
+[05:50:40.104] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:50:40.119] Server  LOG      ✓ Compiled in 136ms
+[05:50:40.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:50:40.917] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:51:22.500] Server  LOG      ✓ Compiled in 296ms
+[05:51:28.257] Server  LOG      ✓ Compiled in 89ms
+[05:51:32.126] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   MagneticMenu,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   TiltCardAdmissions,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | // --- DATA ---
+  14 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:32.128] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   MagneticMenu,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   TiltCardAdmissions,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | // --- DATA ---
+  14 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:32.129] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:32.129] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:41.218] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:41.218] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:45.932] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:45.932] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:49.325] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:49.325] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.371] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+
+./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.654] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:57.853] Browser ERROR   uncaughtError: Error: ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:51:58.018] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:58.018] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:58.018] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:51:58.018] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | // --- DATA ---
+  10 | const SLIDES = [
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:13.717] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:13.718] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:20.404] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+
+./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:52:20.547] Browser ERROR   uncaughtError: Error: ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:52:20.699] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:20.699] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:20.699] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:20.699] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:21.717] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+
+./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:52:21.821] Browser ERROR   uncaughtError: Error: ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+
+[05:52:21.960] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:21.960] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:21.960] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:21.960] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import MagneticMenu?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:52:29.691] Server  LOG      ✓ Compiled in 240ms
+[05:52:30.785] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:52:30.989] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:52:54.889] Server  LOG      ✓ Compiled in 555ms
+[05:53:08.333] Server  LOG      ✓ Compiled in 153ms
+[05:53:12.242] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import FlashlightWidget?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:53:12.243] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ExpandingGallery doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export ExpandingGallery was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import FlashlightWidget?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:54:59.911] Server  LOG      ✓ Compiled in 463ms
+[05:55:09.177] Server  LOG      ✓ Compiled in 106ms
+[05:55:12.554] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FlashlightWidget doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery, FlashlightWidget } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FlashlightWidget was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import HotspotExplorer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:55:12.555] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FlashlightWidget doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { ExpandingGallery, FlashlightWidget } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FlashlightWidget was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import HotspotExplorer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:56:22.377] Server  LOG      ✓ Compiled in 1260ms
+[05:56:22.442] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/b_g4jMW8LyWHK/components/hero.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:56:25.896] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[05:56:26.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:56:46.031] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[05:56:46.050] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:56:46.071] Server  LOG      ✓ Compiled in 174ms
+[05:56:46.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:57:14.432] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:58:02.450] Server  LOG      ✓ Compiled in 147ms
+[05:58:05.272] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export RotarySelector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  13 | // import { ExpandingGallery } from "./glasscard";
+  14 |
+  15 | // --- DATA ---
+
+The export RotarySelector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import BentoGrid?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:58:05.272] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export RotarySelector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^
+>  9 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^
+> 10 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^
+> 11 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^
+> 12 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  13 | // import { ExpandingGallery } from "./glasscard";
+  14 |
+  15 | // --- DATA ---
+
+The export RotarySelector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import BentoGrid?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[05:58:32.863] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/b_g4jMW8LyWHK/components/hero.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:58:32.876] Server  LOG      ✓ Compiled in 346ms
+[05:58:34.653] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[05:58:35.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:58:56.923] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[05:58:56.932] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:58:56.996] Server  LOG      ✓ Compiled in 113ms
+[05:58:57.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:59:00.365] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[06:02:08.932] Server  LOG      ✓ Compiled in 348ms
+[06:02:14.622] Server  LOG      ✓ Compiled in 161ms
+[06:02:20.949] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export CodeTerminal doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 10 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 11 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 12 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 13 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 14 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  15 | // import { ExpandingGallery } from "./glasscard";
+  16 |
+  17 | // --- DATA ---
+
+The export CodeTerminal was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import CareerConfigurator?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:02:20.957] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export CodeTerminal doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 10 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 11 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 12 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 13 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 14 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  15 | // import { ExpandingGallery } from "./glasscard";
+  16 |
+  17 | // --- DATA ---
+
+The export CodeTerminal was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import CareerConfigurator?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:04:11.342] Server  LOG      ✓ Compiled in 534ms
+[06:04:18.521] Server  LOG      ✓ Compiled in 248ms
+[06:04:21.383] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export CareerConfigurator doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 13 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 14 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 15 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  16 | // import { ExpandingGallery } from "./glasscard";
+  17 |
+  18 | // --- DATA ---
+
+The export CareerConfigurator was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import FacultyArchive?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:04:21.383] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export CareerConfigurator doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 13 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 14 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 15 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  16 | // import { ExpandingGallery } from "./glasscard";
+  17 |
+  18 | // --- DATA ---
+
+The export CareerConfigurator was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import FacultyArchive?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:06:19.656] Server  LOG      ✓ Compiled in 132ms
+[06:06:22.363] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FacultyArchive,
+     | ^^^^^^^^^^^^
+> 13 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 14 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 15 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 16 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 | // import { ExpandingGallery } from "./glasscard";
+  18 |
+  19 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import ArtifactInspector?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:06:22.364] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FacultyArchive,
+     | ^^^^^^^^^^^^
+> 13 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 14 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 15 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 16 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 | // import { ExpandingGallery } from "./glasscard";
+  18 |
+  19 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import ArtifactInspector?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:06:51.850] Server  LOG      ✓ Compiled in 219ms
+[06:06:51.967] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ArtifactInspector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ArtifactInspector,
+     | ^^^^^^^^^^^^^^^^^^^^
+>  9 |   BentoGrid,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 10 |   CareerConfigurator,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 11 |   CodeTerminal,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 12 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 13 |   FacultyArchive,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 14 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 15 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 17 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  18 | // import { ExpandingGallery } from "./glasscard";
+  19 |
+  20 | // --- DATA ---
+
+The export ArtifactInspector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import FacultyArchive?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:06:51.968] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ArtifactInspector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ArtifactInspector,
+     | ^^^^^^^^^^^^^^^^^^^^
+>  9 |   BentoGrid,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 10 |   CareerConfigurator,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 11 |   CodeTerminal,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 12 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 13 |   FacultyArchive,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 14 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 15 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 17 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  18 | // import { ExpandingGallery } from "./glasscard";
+  19 |
+  20 | // --- DATA ---
+
+The export ArtifactInspector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import FacultyArchive?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:07:53.678] Server  LOG      ✓ Compiled in 1236ms
+[06:07:53.947] Server  LOG      ✓ Compiled in 67ms
+[06:07:56.158] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ArtifactInspector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ArtifactInspector,
+     | ^^^^^^^^^^^^^^^^^^^^
+>  9 |   BentoGrid,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 10 |   CareerConfigurator,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 11 |   CodeTerminal,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 12 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 13 |   FacultyArchive,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 14 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 15 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 17 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  18 | // import { ExpandingGallery } from "./glasscard";
+  19 |
+  20 | // --- DATA ---
+
+The export ArtifactInspector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:07:56.161] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export ArtifactInspector doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   ArtifactInspector,
+     | ^^^^^^^^^^^^^^^^^^^^
+>  9 |   BentoGrid,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 10 |   CareerConfigurator,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 11 |   CodeTerminal,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 12 |   ExpandingGallery,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 13 |   FacultyArchive,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 14 |   FlashlightWidget,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 15 |   HotspotExplorer,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 |   RotarySelector,
+     | ^^^^^^^^^^^^^^^^^^^^
+> 17 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  18 | // import { ExpandingGallery } from "./glasscard";
+  19 |
+  20 | // --- DATA ---
+
+The export ArtifactInspector was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:07:56.161] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FacultyArchive,
+     | ^^^^^^^^^^^^
+> 13 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 14 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 15 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 16 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 | // import { ExpandingGallery } from "./glasscard";
+  18 |
+  19 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:07:56.161] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import {
+     | ^^^^^^^^
+>  8 |   BentoGrid,
+     | ^^^^^^^^^^^^
+>  9 |   CareerConfigurator,
+     | ^^^^^^^^^^^^
+> 10 |   CodeTerminal,
+     | ^^^^^^^^^^^^
+> 11 |   ExpandingGallery,
+     | ^^^^^^^^^^^^
+> 12 |   FacultyArchive,
+     | ^^^^^^^^^^^^
+> 13 |   FlashlightWidget,
+     | ^^^^^^^^^^^^
+> 14 |   HotspotExplorer,
+     | ^^^^^^^^^^^^
+> 15 |   RotarySelector,
+     | ^^^^^^^^^^^^
+> 16 | } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 | // import { ExpandingGallery } from "./glasscard";
+  18 |
+  19 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:08:19.889] Server  LOG      ✓ Compiled in 913ms
+[06:08:20.103] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { FacultyArchive } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:08:20.106] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { FacultyArchive } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:08:33.443] Server  LOG      ✓ Compiled in 1442ms
+[06:08:33.756] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { FacultyArchive } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-client] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:08:33.756] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/hero.tsx:7:1
+Export FacultyArchive doesn't exist in target module
+   5 | import useEmblaCarousel from "embla-carousel-react";
+   6 | import Autoplay from "embla-carousel-autoplay";
+>  7 | import { FacultyArchive } from "./glasscard";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | // import { ExpandingGallery } from "./glasscard";
+   9 |
+  10 | // --- DATA ---
+
+The export FacultyArchive was not found in module [project]/Downloads/b_g4jMW8LyWHK/components/glasscard.tsx [app-ssr] (ecmascript).
+Did you mean to import ProjectTracker?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/hero.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+[06:08:38.186] Server  ERROR    ⨯ ReferenceError: FacultyArchive is not defined
+[06:08:39.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:08:39.910] Browser ERROR   uncaughtError: ReferenceError: FacultyArchive is not defined
+[06:08:41.219] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:08:41.222] Server  LOG      ✓ Compiled in 361ms
+[06:08:42.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:08:42.490] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[06:10:24.553] Server  LOG      ✓ Compiled in 1276ms
+[06:12:01.747] Browser LOG     Search: bca
+[06:12:03.387] Browser LOG     Search: bca
+[06:12:03.984] Browser LOG     Search: bca
+[06:12:20.584] Server  LOG      ✓ Compiled in 953ms
+[06:12:47.764] Server  LOG      ✓ Compiled in 430ms
+[06:14:12.655] Server  LOG      ✓ Compiled in 389ms
+[06:16:02.612] Server  LOG      ✓ Compiled in 576ms
+[06:16:10.212] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:16:10.407] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[06:17:37.477] Server  LOG      ✓ Compiled in 450ms
+[06:19:18.947] Server  LOG      ✓ Compiled in 1119ms
+[06:21:22.264] Server  LOG      ✓ Compiled in 791ms
+[06:23:50.087] Server  LOG      ✓ Compiled in 1257ms
+[06:25:42.046] Server  LOG      ✓ Compiled in 1110ms
+[06:27:40.209] Server  LOG      ✓ Compiled in 578ms
+[06:30:25.104] Server  LOG      ✓ Compiled in 1470ms
+[06:33:03.225] Server  LOG      ✓ Compiled in 2.4s
+[06:34:45.047] Server  LOG      ✓ Compiled in 2.1s
+[06:35:10.799] Server  LOG      ✓ Compiled in 1458ms
+[06:37:12.565] Server  LOG      ✓ Compiled in 2.8s
+[06:38:07.788] Server  LOG      ✓ Compiled in 754ms
+[06:38:35.139] Server  LOG      ✓ Compiled in 143ms
+[06:38:57.349] Server  LOG      ✓ Compiled in 673ms
+[06:39:29.005] Server  LOG      ✓ Compiled in 221ms
+[06:39:29.959] Server  LOG      ✓ Compiled in 83ms
+[06:39:58.450] Server  LOG      ✓ Compiled in 897ms
+[06:42:10.570] Server  LOG      ✓ Compiled in 1551ms
+[06:42:29.253] Browser WARN    Image with src "http://localhost:3000/logo.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[06:45:00.608] Server  LOG      ✓ Compiled in 1977ms
+[06:45:20.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:47:44.547] Server  LOG      ✓ Compiled in 2.2s
+[06:50:29.535] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.542] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.557] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.576] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.624] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.627] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.637] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.641] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.644] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.647] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.651] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.652] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.659] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.661] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.664] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.666] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.671] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.674] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.674] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.678] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.680] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.682] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.682] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.684] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.685] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.694] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.694] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:29.699] Server  ERROR    ⨯ ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:50:32.534] Browser ERROR   ./Downloads/b_g4jMW8LyWHK/components/programs.tsx:5:1
+Module not found: Can't resolve 'embla-carousel-react-autoplay'
+  3 | import * as React from "react";
+  4 | import Link from "next/link";
+> 5 | import Autoplay from "embla-carousel-react-autoplay";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   ArrowUpRight,
+  8 |   Clock,
+
+Import trace:
+  Server Component:
+    ./Downloads/b_g4jMW8LyWHK/components/programs.tsx
+    ./Downloads/b_g4jMW8LyWHK/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[06:52:33.677] Server  LOG      ✓ Compiled in 379ms
+[06:53:50.630] Server  LOG      ✓ Compiled in 162ms
+[06:55:02.714] Server  LOG      ✓ Compiled in 247ms
+[06:57:09.574] Server  LOG      ✓ Compiled in 1011ms
+[06:57:17.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:59:44.435] Server  LOG      ✓ Compiled in 2.4s
+[07:00:01.527] Server  LOG      ✓ Compiled in 462ms
