@@ -8,13 +8,13 @@ import News from "@/components/news";
 import CTA from "@/components/cta";
 import Footer from "@/components/footer";
 import FaqAndInquiry from "@/components/faqandinquiry";
-import SpotlightCarousel from "@/components/althero";
+// import Header from "@/components/althero";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
-      <Header />
-      {/* <SpotlightCarousel /> */}
+      {/* <Header /> */}
+      <Header></Header>
       <Hero />
       <Programs />
       <Features />

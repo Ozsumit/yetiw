@@ -144,12 +144,12 @@ export default function Features() {
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900 tracking-tight leading-[1.1]">
-              Academic Excellence <br />
-              <span className="text-blue-600">Redefined.</span>
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-zinc-900 leading-[0.9]">
+              Academic Excellence Redefined <br />
+              {/* <span className="text-blue-600">Redefined.</span> */}
             </h2>
 
-            <p className="text-lg text-slate-600 mb-12 max-w-lg leading-relaxed">
+            <p className="text-lg text-slate-600 max-w-xl mt-4">
               We provide an environment that fosters innovation, critical
               thinking, and global perspectives.
             </p>

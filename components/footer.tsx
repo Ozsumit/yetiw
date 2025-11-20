@@ -7,136 +7,170 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import Link from "next/link"; // Using Link for better navigation
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-100 py-16 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          {/* Column 1: Brand Info */}
+    <footer className="bg-black text-zinc-400 pt-20 pb-10 border-t border-zinc-800">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Top Section: Big Brand Statement */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20 border-b border-zinc-800 pb-20">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-white">
-              Yeti International College
-            </h3>
-            <p className="text-slate-300">
-              Empowering minds. Shaping futures. Building leaders.
+            <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter leading-[0.9] mb-6">
+              Yeti International
+              <br />
+              College.
+            </h2>
+            <p className="text-lg text-zinc-500 max-w-md leading-relaxed">
+              Empowering minds and building leaders through world-class
+              education and research.
             </p>
           </div>
 
-          {/* Column 2: Academic Links */}
-          <div>
-            <h4 className="font-semibold mb-4 text-white">Academic</h4>
-            <ul className="space-y-2 text-slate-300">
-              <li>
-                <Link href="/programs" className="hover:text-white transition">
-                  Programs
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/admissions"
-                  className="hover:text-white transition"
-                >
-                  Admissions
-                </Link>
-              </li>
-              <li>
-                <Link href="/faculty" className="hover:text-white transition">
-                  Faculty
-                </Link>
-              </li>
-              <li>
-                <Link href="/research" className="hover:text-white transition">
-                  Research
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 3: Campus Life Links */}
-          <div>
-            <h4 className="font-semibold mb-4 text-white">Campus Life</h4>
-            <ul className="space-y-2 text-slate-300">
-              <li>
-                <Link href="/events" className="hover:text-white transition">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/student-life"
-                  className="hover:text-white transition"
-                >
-                  Student Life
-                </Link>
-              </li>
-              <li>
-                <Link href="/athletics" className="hover:text-white transition">
-                  Athletics
-                </Link>
-              </li>
-              <li>
-                <Link href="/clubs" className="hover:text-white transition">
-                  Clubs
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 4: Contact Info */}
-          <div>
-            <h4 className="font-semibold mb-4 text-white">Contact</h4>
-            <div className="space-y-3 text-slate-300">
-              <div className="flex items-start gap-3">
-                <FaMapMarkerAlt className="w-5 h-5 mt-1 flex-shrink-0" />
-                <span>Buddhanagar, New Baneshwor, Kathmandu-10</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <FaPhoneAlt className="w-5 h-5 flex-shrink-0" />
-                <span>01-4792063, 9803323042, 9851314471</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <FaEnvelope className="w-5 h-5 flex-shrink-0" />
-                <span>info@yeticollege.edu.np</span>
-              </div>
-            </div>
+          <div className="flex flex-col justify-end items-start lg:items-end">
+            {/* A large, soft 'Apply' CTA often found in Swiss footers */}
+            <Link
+              href="/admissions"
+              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-black transition-all duration-300 bg-white rounded-full hover:bg-zinc-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500 ring-offset-black"
+            >
+              Apply for Admission
+              <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
           </div>
         </div>
 
-        <div className="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-400 text-sm">
-            © 2025 Yeti International College. All rights reserved.
-          </p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-            <Link
-              href="#"
-              className="text-slate-400 hover:text-white transition"
-              aria-label="Facebook"
-            >
-              <FaFacebookF className="w-5 h-5" />
+        {/* Middle Section: The Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-20">
+          {/* Column 1: Contact (Span 4) */}
+          <div className="lg:col-span-4 space-y-8">
+            <span className="text-xs font-bold tracking-widest uppercase text-zinc-600">
+              / Contact
+            </span>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4 group">
+                <div className="mt-1 p-2 rounded-full bg-zinc-900 text-white group-hover:bg-zinc-800 transition-colors">
+                  <FaMapMarkerAlt className="w-4 h-4" />
+                </div>
+                <div>
+                  <p className="text-white font-medium">Kathmandu Campus</p>
+                  <p className="text-sm mt-1 leading-relaxed">
+                    Buddhanagar, New Baneshwor
+                    <br />
+                    Kathmandu-10, Nepal
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 group">
+                <div className="mt-1 p-2 rounded-full bg-zinc-900 text-white group-hover:bg-zinc-800 transition-colors">
+                  <FaPhoneAlt className="w-4 h-4" />
+                </div>
+                <div>
+                  <p className="text-white font-medium">Inquiries</p>
+                  <p className="text-sm mt-1">01-4792063</p>
+                  <p className="text-sm">9803323042</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 group">
+                <div className="mt-1 p-2 rounded-full bg-zinc-900 text-white group-hover:bg-zinc-800 transition-colors">
+                  <FaEnvelope className="w-4 h-4" />
+                </div>
+                <div>
+                  <p className="text-white font-medium">Email</p>
+                  <p className="text-sm mt-1 hover:text-white transition-colors cursor-pointer">
+                    info@yeticollege.edu.np
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Column 2: Academics (Span 3) */}
+          <div className="lg:col-span-3 lg:col-start-6 space-y-8">
+            <span className="text-xs font-bold tracking-widest uppercase text-zinc-600">
+              / Academics
+            </span>
+            <ul className="space-y-4">
+              {[
+                "Programs",
+                "Admissions",
+                "Faculty",
+                "Research",
+                "Academic Calendar",
+              ].map((item) => (
+                <li key={item}>
+                  <Link
+                    href={`/${item.toLowerCase().replace(" ", "-")}`}
+                    className="text-zinc-400 hover:text-white text-base transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-1 h-1 bg-transparent group-hover:bg-white rounded-full transition-colors" />
+                    {item}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 3: Campus Life (Span 3) */}
+          <div className="lg:col-span-3 space-y-8">
+            <span className="text-xs font-bold tracking-widest uppercase text-zinc-600">
+              / Campus Life
+            </span>
+            <ul className="space-y-4">
+              {[
+                "Events",
+                "Student Life",
+                "Athletics",
+                "Clubs",
+                "News & Stories",
+              ].map((item) => (
+                <li key={item}>
+                  <Link
+                    href={`/${item.toLowerCase().replace(" ", "-")}`}
+                    className="text-zinc-400 hover:text-white text-base transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-1 h-1 bg-transparent group-hover:bg-white rounded-full transition-colors" />
+                    {item}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Section: Socials & Copyright */}
+        <div className="border-t border-zinc-800 pt-8 flex flex-col-reverse md:flex-row justify-between items-center gap-6">
+          <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-zinc-600">
+            <p>© 2025 Yeti International College.</p>
+            <div className="hidden md:block w-1 h-1 bg-zinc-800 rounded-full" />
+            <Link href="/privacy" className="hover:text-zinc-400">
+              Privacy Policy
             </Link>
-            <Link
-              href="#"
-              className="text-slate-400 hover:text-white transition"
-              aria-label="Twitter"
-            >
-              <FaTwitter className="w-5 h-5" />
+            <Link href="/terms" className="hover:text-zinc-400">
+              Terms of Use
             </Link>
-            <Link
-              href="#"
-              className="text-slate-400 hover:text-white transition"
-              aria-label="Instagram"
-            >
-              <FaInstagram className="w-5 h-5" />
-            </Link>
-            <Link
-              href="#"
-              className="text-slate-400 hover:text-white transition"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedinIn className="w-5 h-5" />
-            </Link>
+          </div>
+
+          {/* Subtle Rounded Social Buttons */}
+          <div className="flex gap-3">
+            {[
+              { icon: FaFacebookF, label: "Facebook" },
+              { icon: FaTwitter, label: "Twitter" },
+              { icon: FaInstagram, label: "Instagram" },
+              { icon: FaLinkedinIn, label: "LinkedIn" },
+            ].map((social, idx) => (
+              <Link
+                key={idx}
+                href="#"
+                aria-label={social.label}
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-zinc-900 text-zinc-400 hover:bg-white hover:text-black transition-all duration-300"
+              >
+                <social.icon className="w-4 h-4" />
+              </Link>
+            ))}
           </div>
         </div>
       </div>

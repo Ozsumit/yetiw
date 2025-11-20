@@ -1,76 +1,162 @@
+"use client";
+
+import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  type CarouselApi,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const testimonials = [
   {
     name: "Sarah Chen",
     role: "Class of 2023",
-    // Make sure this image exists in your `public` folder
     image: "/portrait-professional.jpg",
     text: "Yeti International College transformed my academic journey. The supportive community and exceptional faculty made all the difference.",
   },
   {
     name: "Marcus Johnson",
     role: "Engineering Student",
-    // Make sure this image exists in your `public` folder
     image: "portrait-male-student.jpg",
     text: "The hands-on projects and internship opportunities prepared me perfectly for my career in tech.",
   },
   {
     name: "Emily Rodriguez",
     role: "Business Graduate",
-    // Make sure this image exists in your `public` folder
     image: "portrait-young-woman.jpg",
     text: "The networking opportunities and mentorship programs were invaluable for launching my entrepreneurial venture.",
   },
   {
     name: "David Kim",
     role: "Medical Student",
-    // Make sure this image exists in your `public` folder
     image: "professional-man-portrait.png",
     text: "The rigorous curriculum and access to research facilities set me up for success in medical school.",
+  },
+  {
+    name: "Aisha Patel",
+    role: "Computer Science",
+    image: "portrait-woman-tech.jpg",
+    text: "I found my passion for coding here. The hackathons and coding clubs were the highlight of my college years.",
   },
 ];
 
 export default function Testimonials() {
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+  const [count, setCount] = React.useState(0);
+
+  // Autoplay plugin
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
+
+  // Update state for the dots
+  React.useEffect(() => {
+    if (!api) return;
+
+    setCount(api.scrollSnapList().length);
+    setCurrent(api.selectedScrollSnap() + 1);
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
+
   return (
-    <section className="py-24 px-6 bg-gradient-to-b from-slate-50 to-white">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-24 bg-slate-50">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold mb-4 text-balance text-slate-900">
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-zinc-900 leading-[0.9] mb-4">
             Student Success Stories
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Hear from our students about their transformative experiences
+          <p className="text-lg text-slate-600 max-w-xl mt-4  mx-auto">
+            Hear from our graduates about their journey.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {testimonials.map((testimonial, idx) => (
-            <div
-              key={idx}
-              className="group relative bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-slate-100 hover:border-slate-200 h-full flex flex-col"
-            >
-              <div className="absolute top-4 right-4 w-1 h-8 bg-blue-500 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300" />
+        <div className="relative">
+          <Carousel
+            setApi={setApi}
+            // @ts-ignore - embla-carousel-autoplay does not ship TypeScript declarations
 
-              <p className="text-slate-700 mb-6 italic flex-1 leading-relaxed">
-                "{testimonial.text}"
-              </p>
-              <div className="flex items-center gap-4 pt-4 border-t border-slate-100">
-                {/* --- FIX: Replaced the initial div with an img tag --- */}
-                <img
-                  src={testimonial.image}
-                  alt={`Portrait of ${testimonial.name}`}
-                  className="w-12 h-12 rounded-full object-cover flex-shrink-0"
-                />
-                <div>
-                  <p className="font-semibold text-slate-900">
-                    {testimonial.name}
-                  </p>
-                  <p className="text-sm text-slate-500">{testimonial.role}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+            plugins={[plugin.current]}
+            className="w-full"
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+          >
+            <CarouselContent className="-ml-4 pb-4">
+              {testimonials.map((testimonial, idx) => (
+                <CarouselItem
+                  key={idx}
+                  className="pl-4 md:basis-1/2 lg:basis-1/3"
+                >
+                  <div className="h-full pt-2 pb-2 px-1">
+                    {/* Card Design Matching Reference */}
+                    <Card className="h-full border border-slate-100 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 rounded-2xl">
+                      <CardContent className="flex flex-col p-8 h-full">
+                        {/* Main Text Area */}
+                        <div className="flex-grow">
+                          <p className="text-slate-700 text-lg leading-relaxed italic font-medium">
+                            "{testimonial.text}"
+                          </p>
+                        </div>
+
+                        {/* Divider Line */}
+                        <div className="w-full h-px bg-slate-100 my-6" />
+
+                        {/* Profile Section */}
+                        <div className="flex items-center gap-4">
+                          <img
+                            src={testimonial.image}
+                            alt={testimonial.name}
+                            className="w-14 h-14 rounded-full object-cover border border-slate-100"
+                            onError={(e) => {
+                              e.currentTarget.src = `https://ui-avatars.com/api/?name=${testimonial.name}&background=e2e8f0&color=475569`;
+                            }}
+                          />
+                          <div>
+                            <h4 className="font-bold text-slate-900 text-base">
+                              {testimonial.name}
+                            </h4>
+                            <p className="text-slate-500 text-sm">
+                              {testimonial.role}
+                            </p>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+
+            {/* Optional: Arrows (Hidden on mobile, visible on large screens) */}
+            <CarouselPrevious className="hidden lg:flex -left-12 h-12 w-12 border-slate-200 text-slate-500 hover:text-blue-600 hover:border-blue-600" />
+            <CarouselNext className="hidden lg:flex -right-12 h-12 w-12 border-slate-200 text-slate-500 hover:text-blue-600 hover:border-blue-600" />
+          </Carousel>
+
+          {/* Indicator Dots */}
+          <div className="flex justify-center gap-2 mt-8">
+            {Array.from({ length: count }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => api?.scrollTo(index)}
+                className={`transition-all duration-300 rounded-full ${
+                  current === index + 1
+                    ? "w-8 h-2.5 bg-slate-800"
+                    : "w-2.5 h-2.5 bg-slate-300 hover:bg-slate-400"
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -125,10 +125,10 @@ export default function Programs() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight mb-3">
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-zinc-900 leading-[0.9] mb-4">
               Our Academic Programs
             </h2>
-            <p className="text-slate-500 text-lg max-w-xl">
+            <p className="text-lg text-slate-600 max-w-xl ">
               Comprehensive curriculums designed to build your future.
             </p>
           </div>
@@ -137,13 +137,13 @@ export default function Programs() {
           <div className="hidden md:flex gap-2">
             <button
               onClick={() => api?.scrollPrev()}
-              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:border-blue-500 hover:text-blue-600 transition-colors"
+              className="w-10 h-10 rounded-2xl border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:border-blue-500 hover:text-blue-600 transition-colors"
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
             <button
               onClick={() => api?.scrollNext()}
-              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:border-blue-500 hover:text-blue-600 transition-colors"
+              className="w-10 h-10 rounded-2xl border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:border-blue-500 hover:text-blue-600 transition-colors"
             >
               <ChevronRight className="w-5 h-5" />
             </button>
@@ -166,7 +166,7 @@ export default function Programs() {
               >
                 <Link
                   href={program.href}
-                  className="group flex flex-col h-full bg-white rounded-[2rem] border border-slate-200 overflow-hidden hover:border-blue-200 transition-all duration-300 hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)]"
+                  className="group flex flex-col h-full bg-white rounded-[1rem] border border-slate-200 overflow-hidden hover:border-blue-200 transition-all duration-300 hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)]"
                 >
                   {/* Top Half: Image & Category */}
                   <div className="relative h-56 w-full overflow-hidden bg-slate-100 shrink-0">
@@ -176,7 +176,7 @@ export default function Programs() {
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute top-4 left-4">
-                      <span className="px-3 py-1 rounded-full bg-white/90 backdrop-blur-sm text-xs font-bold text-slate-800 shadow-sm border border-white/50">
+                      <span className="px-3 py-1 rounded-2xl bg-white/90 backdrop-blur-sm text-xs font-bold text-slate-800 shadow-sm border border-white/50">
                         {program.category}
                       </span>
                     </div>
@@ -194,7 +194,7 @@ export default function Programs() {
                           {program.fullTitle}
                         </p>
                       </div>
-                      <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300 shrink-0">
+                      <div className="w-8 h-8 rounded-xl bg-slate-50 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300 shrink-0">
                         <ArrowUpRight className="w-4 h-4" />
                       </div>
                     </div>

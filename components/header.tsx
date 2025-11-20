@@ -13,29 +13,70 @@ import {
   Building2,
   Monitor,
   Briefcase,
+  Globe,
+  CalendarDays,
   Cpu,
   Hotel,
+  User,
   ArrowRight,
   History,
   GraduationCap,
+  BookOpen, // Added for variety
+  Network, // Added for variety
 } from "lucide-react";
 
 // --- Data Configuration ---
 
 const aboutLinks = [
-  { href: "#", label: "Mission & Vision", icon: Trophy },
-  { href: "#", label: "Message From CEO", icon: Users },
-  { href: "#", label: "College History", icon: History }, // Added
-  { href: "#", label: "Our Team", icon: Users },
-  { href: "#", label: "Facilities", icon: Building2 },
-  { href: "#", label: "Alumni Association", icon: GraduationCap }, // Added
+  { href: "/about", label: "About Us", icon: History },
+  { href: "/about/message/ceo", label: "Message From CEO", icon: User },
+  {
+    href: "/about/message/director",
+    label: "Message From Director",
+    icon: User,
+  },
+  {
+    href: "/about/message/principal",
+    label: "Message From Principal",
+    icon: User,
+  },
+  { href: "/about/mission-vision", label: "Mission & Vision", icon: Trophy },
+  { href: "/about/facilities", label: "Facilities", icon: Building2 },
+  { href: "/about/team", label: "Our Team", icon: Users },
+  // { href: "#", label: "Alumni Ass÷ociation", icon: GraduationCap },
 ];
 
 const programLinks = [
-  { href: "#", label: "Bachelor in IT", icon: Monitor },
-  { href: "#", label: "Bachelor in Business Studies", icon: Briefcase },
-  { href: "#", label: "Bachelor in Computer Applications", icon: Cpu },
-  { href: "#", label: "Bachelor in Hotel Management", icon: Hotel },
+  {
+    href: "/programs/mba",
+    label: "Master in Business Administration",
+    icon: Briefcase,
+  },
+  {
+    href: "/programs/bhm",
+    label: "Bachelor in Hotel Management",
+    icon: Hotel,
+  },
+  {
+    href: "/programs/babm",
+    label: "Bachelor in Airlines Business Management",
+    icon: Globe,
+  },
+  {
+    href: "/programs/bamm",
+    label: "Bachelor in MICE (Event) Management",
+    icon: CalendarDays,
+  },
+  {
+    href: "/programs/bttm",
+    label: "Bachelor in Tourism & MICE Management",
+    icon: Briefcase,
+  },
+  {
+    href: "/programs/bca",
+    label: "Bachelor in Computer Application",
+    icon: Cpu,
+  },
 ];
 
 export default function Header() {
@@ -44,6 +85,14 @@ export default function Header() {
   );
   const isDropdownOpen = activeMenu !== "none";
 
+  // --- Split links for two-column layouts ---
+  const firstColAbout = aboutLinks.slice(0, 4);
+  const secondColAbout = aboutLinks.slice(4);
+
+  // MODIFICATION: First column gets 4, second column gets the rest
+  const firstColPrograms = programLinks.slice(0, 4);
+  const secondColPrograms = programLinks.slice(4);
+
   return (
     <header
       className="sticky top-0 z-50 w-full"
@@ -51,10 +100,10 @@ export default function Header() {
     >
       {/* Navbar Container */}
       <div className="relative z-50 bg-background/95 backdrop-blur-md border-b shadow-sm">
-        <div className="mx-auto max-w-7xl px-6 h-20 flex items-center justify-between">
+        <div className="mx-auto max-w-full px-6 h-20 flex items-center justify-between">
           {/* Logo */}
-          <Link href="#" className="flex items-center gap-3 group">
-            <div className="relative w-[70px] h-[40px]">
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative w-[100px] h-[70px]">
               <Image
                 src="/logo.png"
                 alt="Yeti International College Logo"
@@ -62,8 +111,8 @@ export default function Header() {
                 className="object-contain"
               />
             </div>
-            <span className="text-xl font-bold tracking-tight text-foreground hidden sm:block">
-              Yeti Int. College
+            <span className="text-2xl font-bold tracking-tight text-foreground hidden sm:block">
+              Yeti International College
             </span>
           </Link>
 
@@ -80,16 +129,22 @@ export default function Header() {
               onHover={() => setActiveMenu("about")}
             />
             <Link
-              href="#"
+              href="/events"
               className="px-4 py-2 text-sm font-medium hover:text-primary transition-colors"
             >
               Events
             </Link>
             <Link
-              href="#"
+              href="/news"
               className="px-4 py-2 text-sm font-medium hover:text-primary transition-colors"
             >
               News
+            </Link>
+            <Link
+              href="/gallery"
+              className="px-4 py-2 text-sm font-medium hover:text-primary transition-colors"
+            >
+              Gallery
             </Link>
             <div className="pl-4">
               <Button className="rounded-full px-6 font-semibold">
@@ -133,17 +188,25 @@ export default function Header() {
                     </Button>
                   </div>
 
-                  {/* Right: Vertical List (Updates applied here) */}
+                  {/* Right: Two-Column Vertical List */}
                   <div className="col-span-8">
                     <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4">
                       Explore About
                     </h4>
-                    {/* Changed to flex-col to match Programs */}
-                    <ul className="flex flex-col gap-2">
-                      {aboutLinks.map((link) => (
-                        <ListLink key={link.label} {...link} />
-                      ))}
-                    </ul>
+                    <div className="grid grid-cols-2 gap-x-8">
+                      {/* First Column */}
+                      <ul className="flex flex-col gap-2">
+                        {firstColAbout.map((link) => (
+                          <ListLink key={link.label} {...link} />
+                        ))}
+                      </ul>
+                      {/* Second Column */}
+                      <ul className="flex flex-col gap-2">
+                        {secondColAbout.map((link) => (
+                          <ListLink key={link.label} {...link} />
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               )}
@@ -171,16 +234,25 @@ export default function Header() {
                     </div>
                   </div>
 
-                  {/* Right: Vertical List */}
+                  {/* Right: Two-Column Vertical List */}
                   <div className="col-span-8">
                     <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4">
                       Degree Programs
                     </h4>
-                    <ul className="flex flex-col gap-2">
-                      {programLinks.map((link) => (
-                        <ListLink key={link.label} {...link} />
-                      ))}
-                    </ul>
+                    <div className="grid grid-cols-2 gap-x-8">
+                      {/* First Column */}
+                      <ul className="flex flex-col gap-2">
+                        {firstColPrograms.map((link) => (
+                          <ListLink key={link.label} {...link} />
+                        ))}
+                      </ul>
+                      {/* Second Column */}
+                      <ul className="flex flex-col gap-2">
+                        {secondColPrograms.map((link) => (
+                          <ListLink key={link.label} {...link} />
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               )}
@@ -251,8 +323,7 @@ function ListLink({
       >
         <div className="flex items-center gap-4">
           <div className="p-2 bg-primary/10 text-primary rounded-md group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-            <Icon className="w-5 h-5" />{" "}
-            {/* Slightly larger icons for single list view */}
+            <Icon className="w-5 h-5" />
           </div>
           <span className="text-sm font-medium text-foreground/80 group-hover:text-foreground">
             {label}
