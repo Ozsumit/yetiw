@@ -358,7 +358,7 @@ function CTA() {
                     className: "mb-8 flex justify-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "px-3 py-1 rounded-full border border-zinc-200 text-xs font-medium text-zinc-500 uppercase tracking-wider",
-                        children: "Admissions 2024"
+                        children: "Admissions 2025"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/cta.tsx",
                         lineNumber: 10,
@@ -865,6 +865,15 @@ function Footer() {
                                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/footer.tsx",
                                     lineNumber: 152,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/about/team/dev",
+                                    className: "hover:text-zinc-400",
+                                    children: "Devs"
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/footer.tsx",
+                                    lineNumber: 155,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -899,17 +908,17 @@ function Footer() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/footer.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 174,
                                         columnNumber: 17
                                     }, this)
                                 }, idx, false, {
                                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/footer.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 168,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/footer.tsx",
-                            lineNumber: 158,
+                            lineNumber: 161,
                             columnNumber: 11
                         }, this)
                     ]

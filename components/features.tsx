@@ -221,7 +221,7 @@ export default function Features() {
               </div>
               <div className="text-3xl font-bold text-slate-900 mb-1">98%</div>
               <p className="text-xs text-slate-500 font-medium">
-                Student satisfaction rate based on 2024 survey.
+                Student satisfaction rate based on 2025 survey.
               </p>
             </motion.div>
 

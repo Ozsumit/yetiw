@@ -7,7 +7,7 @@
   "static/chunks/546e1_framer-motion_dist_es_e2b01700._.js",
   "static/chunks/546e1_react-icons_fa_index_mjs_d906c621._.js",
   "static/chunks/546e1_react-icons_lib_b916d4d4._.js",
-  "static/chunks/546e1_d579aa1f._.js"
+  "static/chunks/546e1_39d18523._.js"
 ],
     source: "dynamic"
 });

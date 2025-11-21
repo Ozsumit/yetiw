@@ -152,6 +152,9 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-zinc-400">
               Terms of Use
             </Link>
+            <Link href="/about/team/dev" className="hover:text-zinc-400">
+              Devs
+            </Link>
           </div>
 
           {/* Subtle Rounded Social Buttons */}

@@ -8,7 +8,7 @@ export default function CTA() {
         {/* Simple Top Label */}
         <div className="mb-8 flex justify-center">
           <span className="px-3 py-1 rounded-full border border-zinc-200 text-xs font-medium text-zinc-500 uppercase tracking-wider">
-            Admissions 2024
+            Admissions 2025
           </span>
         </div>
 

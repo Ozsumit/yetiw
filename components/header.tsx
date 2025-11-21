@@ -114,7 +114,6 @@ const programLinks = [
     code: "BCA",
     icon: Cpu,
   },
-  // Added extra items to demonstrate the 4xn layout
 ];
 
 // --- SUB-COMPONENTS ---
@@ -191,6 +190,46 @@ const ProgramCard = ({ item }: { item: (typeof programLinks)[0] }) => (
   </Link>
 );
 
+// Helper component for Mobile Dropdowns
+const MobileMenuSection = ({
+  title,
+  children,
+  isOpen,
+  onToggle,
+}: {
+  title: string;
+  children: React.ReactNode;
+  isOpen: boolean;
+  onToggle: () => void;
+}) => (
+  <div className="border-b border-zinc-100 last:border-0">
+    <button
+      onClick={onToggle}
+      className="w-full flex items-center justify-between py-4 text-left font-bold text-zinc-900"
+    >
+      {title}
+      <ChevronDown
+        className={cn(
+          "w-5 h-5 text-zinc-400 transition-transform duration-300",
+          isOpen ? "rotate-180" : "rotate-0"
+        )}
+      />
+    </button>
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial={{ height: 0, opacity: 0 }}
+          animate={{ height: "auto", opacity: 1 }}
+          exit={{ height: 0, opacity: 0 }}
+          className="overflow-hidden"
+        >
+          <div className="pb-4 pt-2 text-zinc-600">{children}</div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  </div>
+);
+
 // --- MAIN COMPONENT ---
 export default function Header() {
   const [activeMenu, setActiveMenu] = useState<"about" | "programs" | null>(
@@ -198,7 +237,14 @@ export default function Header() {
   );
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // State for mobile accordion sections
+  const [mobileExpand, setMobileExpand] = useState<string | null>(null);
+
   const handleMouseLeave = () => setActiveMenu(null);
+
+  const toggleMobileSection = (section: string) => {
+    setMobileExpand(mobileExpand === section ? null : section);
+  };
 
   return (
     <>
@@ -271,7 +317,98 @@ export default function Header() {
           </div>
         </div>
 
-        {/* MEGA MENU DROPDOWN */}
+        {/* --- MOBILE MENU CONTENT --- */}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "calc(100vh - 80px)" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3 }}
+              className="lg:hidden absolute top-20 left-0 w-full bg-white z-40 border-t border-zinc-100 overflow-y-auto"
+            >
+              <div className="p-6 flex flex-col">
+                {/* Mobile Search */}
+                <div className="relative mb-6">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    className="w-full bg-zinc-50 border border-zinc-200 rounded-full pl-9 pr-4 py-3 text-sm focus:outline-none focus:border-zinc-400 transition-colors"
+                  />
+                </div>
+
+                {/* Mobile Links Accordions */}
+                <MobileMenuSection
+                  title="Programs"
+                  isOpen={mobileExpand === "programs"}
+                  onToggle={() => toggleMobileSection("programs")}
+                >
+                  <div className="grid grid-cols-1 gap-2">
+                    {programLinks.map((link) => (
+                      <Link
+                        key={link.label}
+                        href={link.href}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="flex items-center gap-3 p-2 rounded-lg hover:bg-zinc-50 text-sm font-medium text-zinc-600"
+                      >
+                        <div className="w-8 h-8 rounded-full bg-zinc-100 flex items-center justify-center">
+                          <link.icon className="w-4 h-4 text-zinc-500" />
+                        </div>
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                </MobileMenuSection>
+
+                <MobileMenuSection
+                  title="About Us"
+                  isOpen={mobileExpand === "about"}
+                  onToggle={() => toggleMobileSection("about")}
+                >
+                  <div className="grid grid-cols-1 gap-2">
+                    {aboutLinks.map((link) => (
+                      <Link
+                        key={link.label}
+                        href={link.href}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="flex items-center gap-3 p-2 rounded-lg hover:bg-zinc-50 text-sm font-medium text-zinc-600"
+                      >
+                        <div className="w-8 h-8 rounded-full bg-zinc-100 flex items-center justify-center">
+                          <link.icon className="w-4 h-4 text-zinc-500" />
+                        </div>
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                </MobileMenuSection>
+
+                {/* Standard Mobile Links */}
+                <div className="flex flex-col gap-1 py-2">
+                  {["Notices", "Events", "News", "Gallery"].map((item) => (
+                    <Link
+                      key={item}
+                      href={`/${item.toLowerCase()}`}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="py-3 border-b border-zinc-100 text-sm font-bold uppercase tracking-wide text-zinc-500 hover:text-zinc-900"
+                    >
+                      {item}
+                    </Link>
+                  ))}
+                </div>
+
+                {/* Mobile Apply Button */}
+                <div className="mt-8">
+                  <Button className="w-full rounded-full py-6 font-bold tracking-wide bg-zinc-900 text-white hover:bg-zinc-800">
+                    Apply Now
+                  </Button>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* DESKTOP MEGA MENU DROPDOWN */}
         <AnimatePresence>
           {activeMenu && (
             <motion.div
@@ -279,7 +416,7 @@ export default function Header() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
-              className="absolute top-full left-0 w-full bg-white border-b border-zinc-100 shadow-xl shadow-zinc-900/5 overflow-hidden"
+              className="absolute top-full left-0 w-full bg-white border-b border-zinc-100 shadow-xl shadow-zinc-900/5 overflow-hidden hidden lg:block"
             >
               <div className="max-w-[1600px] mx-auto px-6 py-12">
                 {/* === ABOUT MENU CONTENT === */}
@@ -320,10 +457,9 @@ export default function Header() {
                   </div>
                 )}
 
-                {/* === PROGRAMS MENU CONTENT (4xN Layout) === */}
+                {/* === PROGRAMS MENU CONTENT === */}
                 {activeMenu === "programs" && (
                   <div className="grid grid-cols-12 gap-8 h-full">
-                    {/* Featured Side (Compact) */}
                     <div className="col-span-3 flex flex-col">
                       <div className="mb-6">
                         <h3 className="text-2xl font-bold text-zinc-900 mb-2">
@@ -346,7 +482,7 @@ export default function Header() {
                         <div className="absolute -right-4 -top-4 w-24 h-24 bg-zinc-800/50 rounded-full blur-xl" />
                         <GraduationCap className="w-6 h-6 mb-3 text-zinc-400 relative z-10" />
                         <div className="text-xl font-bold mb-1 relative z-10">
-                          Fall 2024
+                          Fall 2025
                         </div>
                         <p className="text-xs text-zinc-400 mb-3 relative z-10">
                           Applications open.
@@ -361,14 +497,8 @@ export default function Header() {
                       </div>
                     </div>
 
-                    {/* The 4xN Grid Area */}
                     <div className="col-span-9">
                       <div className="max-h-[60vh] overflow-y-auto pr-2 pb-2 scrollbar-thin scrollbar-thumb-zinc-200 scrollbar-track-transparent">
-                        {/* 
-                           CHANGED: 
-                           1. lg:grid-cols-4 -> Forces 4 columns on large screens
-                           2. gap-3 -> Slightly tighter gap for density
-                        */}
                         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
                           {programLinks.map((link) => (
                             <ProgramCard key={link.label} item={link} />
@@ -392,7 +522,7 @@ export default function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-zinc-900/20 backdrop-blur-[2px] z-40 pointer-events-none top-[80px]"
+            className="fixed inset-0 bg-zinc-900/20 backdrop-blur-[2px] z-40 pointer-events-none top-[80px] hidden lg:block"
           />
         )}
       </AnimatePresence>

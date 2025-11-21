@@ -30,10 +30,10 @@ export const noticesData: Notice[] = [
   {
     id: 1,
     title: "Semester End Examination Schedule",
-    date: "2024-03-10",
+    date: "2025-03-10",
     category: "Exam",
     description:
-      "The final routine for the Spring 2024 semester has been published. Please check for conflicting dates.",
+      "The final routine for the Spring 2025 semester has been published. Please check for conflicting dates.",
     mediaType: "pdf",
     mediaUrl:
       "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
@@ -42,7 +42,7 @@ export const noticesData: Notice[] = [
   {
     id: 2,
     title: "Campus Renovation Progress",
-    date: "2024-03-12",
+    date: "2025-03-12",
     category: "Administrative",
     description:
       "See the progress on the new library wing. Construction is expected to finish by July.",
@@ -54,7 +54,7 @@ export const noticesData: Notice[] = [
   {
     id: 3,
     title: "Holi Festival Holiday",
-    date: "2024-03-24",
+    date: "2025-03-24",
     category: "Holiday",
     description:
       "The campus will remain closed on March 24th and 25th for Holi celebrations.",
@@ -64,7 +64,7 @@ export const noticesData: Notice[] = [
   {
     id: 4,
     title: "Scholarship Application Form",
-    date: "2024-04-01",
+    date: "2025-04-01",
     category: "Academic",
     description:
       "Applications for the Merit Scholarship are now open. Download the attached PDF form.",

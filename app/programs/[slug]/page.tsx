@@ -252,7 +252,7 @@ export default function CourseDetailPage() {
                   </div>
 
                   <h3 className="text-3xl font-bold mb-4 tracking-tight text-foreground">
-                    Fall 2024 Intake
+                    Fall 2025 Intake
                   </h3>
                   <p className="text-muted-foreground mb-8 leading-relaxed">
                     Applications are now open for the upcoming academic session.
@@ -266,7 +266,7 @@ export default function CourseDetailPage() {
                     </Button>
                     <Button
                       variant="outline"
-                      className="w-full h-14 rounded-xl text-base font-bold border-border hover:bg-muted bg-transparent text-foreground"
+                      className="w-full h-14 rounded-xl text-base font-bold border-border hover:bg-muted hover:text-muted-foreground bg-transparent text-foreground"
                     >
                       Download Brochure
                     </Button>

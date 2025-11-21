@@ -16,28 +16,28 @@ import Autoplay from "embla-carousel-autoplay";
 const newsItems = [
   {
     title: "Westfield Wins National Research Award",
-    date: "Mar 10, 2024",
+    date: "Mar 10, 2025",
     category: "Achievement",
     image:
       "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop",
   },
   {
     title: "New Innovation Hub Inaugurated",
-    date: "Mar 05, 2024",
+    date: "Mar 05, 2025",
     category: "Campus",
     image:
       "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop",
   },
   {
     title: "Alumni Spotlight: From Campus to CEO",
-    date: "Feb 28, 2024",
+    date: "Feb 28, 2025",
     category: "Alumni",
     image:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
   },
   {
     title: "Annual Sports Week Begins",
-    date: "Feb 20, 2024",
+    date: "Feb 20, 2025",
     category: "Events",
     image:
       "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop",

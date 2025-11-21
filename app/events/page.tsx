@@ -1,5 +1,6 @@
 "use client";
-import React, { useState } from "react";
+
+import React, { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   CalendarDays,
@@ -8,10 +9,12 @@ import {
   ChevronLeft,
   ChevronRight,
   X,
+  Clock,
 } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { events } from "@/data/events";
+
 // --- Types & Data ---
 
 type Event = {
@@ -47,7 +50,6 @@ const SwissCalendar = ({
   onDateSelect: (date: string | null) => void;
   selectedDate: string | null;
 }) => {
-  // UPDATED: Initialize with the current date instead of hardcoded March 2024
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const year = currentDate.getFullYear();
@@ -57,10 +59,8 @@ const SwissCalendar = ({
   const startingDayIndex = getAdjustedDayIndex(getFirstDayOfMonth(year, month));
 
   const monthName = currentDate.toLocaleString("default", { month: "long" });
-
   const days = ["M", "T", "W", "T", "F", "S", "S"];
 
-  // Create date string YYYY-MM-DD
   const formatDate = (day: number) => {
     return `${year}-${String(month + 1).padStart(2, "0")}-${String(
       day
@@ -71,100 +71,107 @@ const SwissCalendar = ({
   const handleNextMonth = () => setCurrentDate(new Date(year, month + 1, 1));
 
   return (
-    <>
-      <div className="p-6 bg-zinc-900 text-white rounded-3xl w-full shadow-2xl">
-        {/* Header */}
-        <div className="flex justify-between items-center mb-6">
-          <span className="text-xl font-bold tracking-tight">
-            {monthName} <span className="text-zinc-500">{year}</span>
-          </span>
-          <div className="flex gap-2">
-            <button
-              onClick={handlePrevMonth}
-              className="p-1 hover:bg-zinc-700 rounded-full transition-colors"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button
-              onClick={handleNextMonth}
-              className="p-1 hover:bg-zinc-700 rounded-full transition-colors"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
+    <div className="p-6 bg-zinc-900 text-white rounded-3xl w-full shadow-2xl">
+      {/* Header */}
+      <div className="flex justify-between items-center mb-6">
+        <span className="text-xl font-bold tracking-tight">
+          {monthName} <span className="text-zinc-500">{year}</span>
+        </span>
+        <div className="flex gap-2">
+          <button
+            onClick={handlePrevMonth}
+            className="p-1 hover:bg-zinc-700 rounded-full transition-colors"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={handleNextMonth}
+            className="p-1 hover:bg-zinc-700 rounded-full transition-colors"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        </div>
+      </div>
+
+      {/* Days Header */}
+      <div className="grid grid-cols-7 gap-2 text-center mb-2">
+        {days.map((d) => (
+          <div key={d} className="text-xs text-zinc-500 font-medium">
+            {d}
           </div>
-        </div>
+        ))}
+      </div>
 
-        {/* Days Header */}
-        <div className="grid grid-cols-7 gap-2 text-center mb-2">
-          {days.map((d) => (
-            <div key={d} className="text-xs text-zinc-500 font-medium">
-              {d}
-            </div>
-          ))}
-        </div>
+      {/* Calendar Grid */}
+      <div className="grid grid-cols-7 gap-2 text-center text-sm font-medium text-zinc-400">
+        {Array.from({ length: startingDayIndex }).map((_, i) => (
+          <div key={`empty-${i}`} />
+        ))}
 
-        {/* Calendar Grid */}
-        <div className="grid grid-cols-7 gap-2 text-center text-sm font-medium text-zinc-400">
-          {/* Empty slots */}
-          {Array.from({ length: startingDayIndex }).map((_, i) => (
-            <div key={`empty-${i}`} />
-          ))}
+        {Array.from({ length: daysInMonth }).map((_, i) => {
+          const day = i + 1;
+          const dateStr = formatDate(day);
+          const hasEvent = events.some((e) => e.date === dateStr);
+          const isSelected = selectedDate === dateStr;
 
-          {/* Days */}
-          {Array.from({ length: daysInMonth }).map((_, i) => {
-            const day = i + 1;
-            const dateStr = formatDate(day);
-            const hasEvent = events.some((e) => e.date === dateStr);
-            const isSelected = selectedDate === dateStr;
-
-            return (
-              <button
-                key={day}
-                onClick={() => onDateSelect(isSelected ? null : dateStr)}
-                className={`
+          return (
+            <button
+              key={day}
+              onClick={() => onDateSelect(isSelected ? null : dateStr)}
+              className={`
                     relative aspect-square flex flex-col items-center justify-center rounded-2xl transition-all duration-300
                     ${
                       isSelected
                         ? "bg-white text-zinc-900 font-bold scale-110 shadow-lg"
                         : "hover:bg-zinc-800 hover:text-white"
                     }
-                        ${
-                          !isSelected && hasEvent
-                            ? "font-bold text-white bg-zinc-800/50"
-                            : ""
-                        }
-                            `}
-              >
-                {day}
-                {/* Event Indicator Dot */}
-                {hasEvent && (
-                  <div
-                    className={`absolute bottom-1.5 w-1 h-1 rounded-full ${
-                      isSelected ? "bg-zinc-900" : "bg-blue-500"
-                    }`}
-                  />
-                )}
-              </button>
-            );
-          })}
-        </div>
+                    ${
+                      !isSelected && hasEvent
+                        ? "font-bold text-white bg-zinc-800/50"
+                        : ""
+                    }
+              `}
+            >
+              {day}
+              {hasEvent && (
+                <div
+                  className={`absolute bottom-1.5 w-1 h-1 rounded-full ${
+                    isSelected ? "bg-zinc-900" : "bg-blue-500"
+                  }`}
+                />
+              )}
+            </button>
+          );
+        })}
       </div>
-    </>
+    </div>
   );
 };
 
 export default function EventsPage() {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+
+  // Lock body scroll when popup is open
+  useEffect(() => {
+    if (selectedEvent) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [selectedEvent]);
 
   // Filter logic
   const displayedEvents = selectedDate
     ? events.filter((e) => e.date === selectedDate)
     : events;
 
-  // Date formatter for display
+  // Date formatter
   const getDateParts = (dateString: string) => {
     const date = new Date(dateString);
-    // Fix timezone offset issue for simple display by appending time
     const d = new Date(date.valueOf() + date.getTimezoneOffset() * 60 * 1000);
     return {
       day: d.getDate(),
@@ -176,7 +183,7 @@ export default function EventsPage() {
   return (
     <>
       <Header />
-      <section className="min-h-screen bg-[#F2F2F2] text-zinc-900 py-8 md:py-12 px-4 md:px-8 font-sans">
+      <section className="min-h-screen bg-[#F2F2F2] text-zinc-900 py-8 md:py-12 px-4 md:px-8 font-sans relative">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             {/* --- Left Sidebar (Sticky) --- */}
@@ -261,7 +268,8 @@ export default function EventsPage() {
                 return (
                   <Card
                     key={event.id}
-                    className="group relative border-0 bg-white rounded-[2rem] overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-zinc-200/50 hover:-translate-y-1"
+                    onClick={() => setSelectedEvent(event)} // Open Modal
+                    className="group relative border-0 bg-white rounded-[2rem] overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-zinc-200/50 hover:-translate-y-1 cursor-pointer"
                   >
                     <div className="flex flex-col md:flex-row h-full">
                       {/* Date Column */}
@@ -321,6 +329,101 @@ export default function EventsPage() {
           </div>
         </div>
       </section>
+
+      {/* --- POPUP WINDOW / MODAL --- */}
+      {selectedEvent && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-zinc-900/60 backdrop-blur-sm animate-in fade-in duration-300"
+          onClick={() => setSelectedEvent(null)}
+        >
+          <div
+            className="bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-[2.5rem] shadow-2xl relative animate-in zoom-in-95 slide-in-from-bottom-10 duration-300 scrollbar-hide"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header Art */}
+            <div className="h-32 w-full bg-zinc-100 relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-10 opacity-10 transform translate-x-10 -translate-y-10">
+                <div
+                  className={`w-64 h-64 rounded-full ${
+                    selectedEvent.accent || "bg-blue-500"
+                  }`}
+                />
+              </div>
+              <button
+                onClick={() => setSelectedEvent(null)}
+                className="absolute top-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-zinc-100 transition-colors z-10"
+              >
+                <X className="w-5 h-5 text-zinc-900" />
+              </button>
+            </div>
+
+            <div className="px-8 pb-12 -mt-12 relative">
+              {/* Date Badge */}
+              <div className="inline-flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg p-4 min-w-[80px] border border-zinc-100 mb-6">
+                <span className="text-xs font-bold text-zinc-400 uppercase tracking-widest">
+                  {getDateParts(selectedEvent.date).month}
+                </span>
+                <span className="text-4xl font-bold text-zinc-900 tracking-tighter">
+                  {getDateParts(selectedEvent.date).day}
+                </span>
+              </div>
+
+              <div className="space-y-6">
+                <div>
+                  <span className="inline-block px-3 py-1 rounded-full bg-zinc-100 text-[10px] font-bold uppercase tracking-wider text-zinc-500 mb-3">
+                    {selectedEvent.category}
+                  </span>
+                  <h3 className="text-3xl md:text-4xl font-bold text-zinc-900 leading-tight">
+                    {selectedEvent.title}
+                  </h3>
+                </div>
+
+                <div className="flex flex-wrap gap-4">
+                  <div className="flex items-center gap-2 text-sm font-bold text-zinc-600 bg-zinc-50 px-4 py-2 rounded-xl border border-zinc-100">
+                    <CalendarDays className="w-4 h-4 text-zinc-400" />
+                    {selectedEvent.date}
+                  </div>
+                  <div className="flex items-center gap-2 text-sm font-bold text-zinc-600 bg-zinc-50 px-4 py-2 rounded-xl border border-zinc-100">
+                    <Clock className="w-4 h-4 text-zinc-400" />
+                    {selectedEvent.time}
+                  </div>
+                  <div className="flex items-center gap-2 text-sm font-bold text-zinc-600 bg-zinc-50 px-4 py-2 rounded-xl border border-zinc-100">
+                    <MapPin className="w-4 h-4 text-zinc-400" />
+                    {selectedEvent.location}
+                  </div>
+                </div>
+
+                <div className="h-px w-full bg-zinc-100 my-6" />
+
+                <div className="space-y-4">
+                  <h4 className="text-lg font-bold text-zinc-900">
+                    About this event
+                  </h4>
+                  <p className="text-zinc-500 leading-relaxed text-lg">
+                    {selectedEvent.description}
+                  </p>
+                  <p className="text-zinc-500 leading-relaxed">
+                    Join us for an immersive experience designed to bring
+                    together professionals from across the industry. This event
+                    will feature keynote speakers, networking sessions, and
+                    interactive workshops.
+                  </p>
+                </div>
+
+                <div className="pt-8 flex gap-4">
+                  <button className="flex-1 bg-zinc-900 text-white font-bold py-4 rounded-xl hover:bg-zinc-800 transition-all shadow-lg shadow-zinc-900/20 flex items-center justify-center gap-2">
+                    Register Now <ArrowUpRight className="w-4 h-4" />
+                  </button>
+                  <button className="px-6 py-4 font-bold text-zinc-900 bg-white border border-zinc-200 rounded-xl hover:bg-zinc-50 transition-all">
+                    Add to Calendar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <Footer />
     </>
   );

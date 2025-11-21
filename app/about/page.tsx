@@ -300,7 +300,7 @@ export default function AboutPageNew() {
                 Ready to define your future?
               </h2>
               <p className="text-xl text-muted-foreground mb-10">
-                Admissions for the Fall 2024 intake are now open. Join a
+                Admissions for the Fall 2025 intake are now open. Join a
                 community that believes in your potential.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -345,7 +345,7 @@ function ImpactCard({
   return (
     <div className="p-6 border border-white/10 rounded-2xl bg-white/5 hover:bg-white/10 transition-colors text-center group">
       <div className="w-12 h-12 mx-auto bg-white/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-        <Icon className="w-6 h-6 text-primary" />
+        <Icon className="w-6 h-6 text-white" />
       </div>
       <div className="text-4xl font-bold mb-2">{value}</div>
       <div className="text-sm font-medium text-white/50 uppercase tracking-wider">
