@@ -297,6 +297,12 @@ export default function Header() {
             >
               Gallery
             </Link>
+            <Link
+              href="/contact"
+              className="px-4 text-sm font-semibold uppercase tracking-wide text-zinc-500 hover:text-zinc-900 transition-colors"
+            >
+              Contact
+            </Link>
           </nav>
 
           {/* Right Side Actions */}

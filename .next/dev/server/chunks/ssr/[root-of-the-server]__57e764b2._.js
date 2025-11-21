@@ -640,6 +640,15 @@ function Header() {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
                                         lineNumber: 294,
                                         columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/contact",
+                                        className: "px-4 text-sm font-semibold uppercase tracking-wide text-zinc-500 hover:text-zinc-900 transition-colors",
+                                        children: "Contact"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
+                                        lineNumber: 300,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -657,12 +666,12 @@ function Header() {
                                             children: "Apply Now"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 311,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 304,
+                                        lineNumber: 310,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -670,22 +679,22 @@ function Header() {
                                         onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
                                         children: isMobileMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 315,
+                                            lineNumber: 321,
                                             columnNumber: 35
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 315,
+                                            lineNumber: 321,
                                             columnNumber: 43
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 317,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                lineNumber: 303,
+                                lineNumber: 309,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -722,7 +731,7 @@ function Header() {
                                                 className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 333,
+                                                lineNumber: 339,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -731,13 +740,13 @@ function Header() {
                                                 className: "w-full bg-zinc-50 border border-zinc-200 rounded-full pl-9 pr-4 py-3 text-sm focus:outline-none focus:border-zinc-400 transition-colors"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 334,
+                                                lineNumber: 340,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 332,
+                                        lineNumber: 338,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MobileMenuSection, {
@@ -757,29 +766,29 @@ function Header() {
                                                                 className: "w-4 h-4 text-zinc-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 356,
+                                                                lineNumber: 362,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                            lineNumber: 355,
+                                                            lineNumber: 361,
                                                             columnNumber: 25
                                                         }, this),
                                                         link.label
                                                     ]
                                                 }, link.label, true, {
                                                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                    lineNumber: 349,
+                                                    lineNumber: 355,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 353,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 342,
+                                        lineNumber: 348,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MobileMenuSection, {
@@ -799,29 +808,29 @@ function Header() {
                                                                 className: "w-4 h-4 text-zinc-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 378,
+                                                                lineNumber: 384,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                            lineNumber: 377,
+                                                            lineNumber: 383,
                                                             columnNumber: 25
                                                         }, this),
                                                         link.label
                                                     ]
                                                 }, link.label, true, {
                                                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                    lineNumber: 371,
+                                                    lineNumber: 377,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 369,
+                                            lineNumber: 375,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 364,
+                                        lineNumber: 370,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -838,12 +847,12 @@ function Header() {
                                                 children: item
                                             }, item, false, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 389,
+                                                lineNumber: 395,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 387,
+                                        lineNumber: 393,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -853,28 +862,28 @@ function Header() {
                                             children: "Apply Now"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                            lineNumber: 402,
+                                            lineNumber: 408,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 401,
+                                        lineNumber: 407,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                lineNumber: 330,
+                                lineNumber: 336,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                            lineNumber: 323,
+                            lineNumber: 329,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                        lineNumber: 321,
+                        lineNumber: 327,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -912,7 +921,7 @@ function Header() {
                                                                 children: "Est. 2002"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 427,
+                                                                lineNumber: 433,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -921,14 +930,14 @@ function Header() {
                                                                     "Educating the",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                        lineNumber: 432,
+                                                                        lineNumber: 438,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     "Leaders of Tomorrow."
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 430,
+                                                                lineNumber: 436,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -936,13 +945,13 @@ function Header() {
                                                                 children: "Yeti International College is a premier institution dedicated to academic excellence."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 435,
+                                                                lineNumber: 441,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 426,
+                                                        lineNumber: 432,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -954,19 +963,19 @@ function Header() {
                                                                 className: "w-4 h-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 444,
+                                                                lineNumber: 450,
                                                                 columnNumber: 40
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 440,
+                                                        lineNumber: 446,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 425,
+                                                lineNumber: 431,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -977,7 +986,7 @@ function Header() {
                                                         children: "Explore About"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 448,
+                                                        lineNumber: 454,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,24 +995,24 @@ function Header() {
                                                                 item: link
                                                             }, link.label, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 453,
+                                                                lineNumber: 459,
                                                                 columnNumber: 27
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 457,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 447,
+                                                lineNumber: 453,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 424,
+                                        lineNumber: 430,
                                         columnNumber: 19
                                     }, this),
                                     activeMenu === "programs" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1020,7 +1029,7 @@ function Header() {
                                                                 children: "Programs"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 465,
+                                                                lineNumber: 471,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1032,7 +1041,7 @@ function Header() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 468,
+                                                                lineNumber: 474,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1042,7 +1051,7 @@ function Header() {
                                                                         className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                        lineNumber: 472,
+                                                                        lineNumber: 478,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1051,19 +1060,19 @@ function Header() {
                                                                         className: "w-full bg-zinc-50 border border-zinc-200 rounded-full pl-9 pr-4 py-2 text-sm focus:outline-none focus:border-zinc-400 transition-colors"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                        lineNumber: 473,
+                                                                        lineNumber: 479,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 471,
+                                                                lineNumber: 477,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 464,
+                                                        lineNumber: 470,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1073,14 +1082,14 @@ function Header() {
                                                                 className: "absolute -right-4 -top-4 w-24 h-24 bg-zinc-800/50 rounded-full blur-xl"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 482,
+                                                                lineNumber: 488,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
                                                                 className: "w-6 h-6 mb-3 text-zinc-400 relative z-10"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 483,
+                                                                lineNumber: 489,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1088,7 +1097,7 @@ function Header() {
                                                                 children: "Fall 2025"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 490,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1096,7 +1105,7 @@ function Header() {
                                                                 children: "Applications open."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 487,
+                                                                lineNumber: 493,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1106,19 +1115,19 @@ function Header() {
                                                                 children: "Apply Now"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 490,
+                                                                lineNumber: 496,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 481,
+                                                        lineNumber: 487,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 463,
+                                                lineNumber: 469,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$b_g4jMW8LyWHK$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1131,44 +1140,44 @@ function Header() {
                                                                 item: link
                                                             }, link.label, false, {
                                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                                lineNumber: 504,
+                                                                lineNumber: 510,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                        lineNumber: 502,
+                                                        lineNumber: 508,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                    lineNumber: 501,
+                                                    lineNumber: 507,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                                lineNumber: 500,
+                                                lineNumber: 506,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                        lineNumber: 462,
+                                        lineNumber: 468,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                                lineNumber: 421,
+                                lineNumber: 427,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                            lineNumber: 414,
+                            lineNumber: 420,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                        lineNumber: 412,
+                        lineNumber: 418,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1194,12 +1203,12 @@ function Header() {
                     className: "fixed inset-0 bg-zinc-900/20 backdrop-blur-[2px] z-40 pointer-events-none top-[80px] hidden lg:block"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                    lineNumber: 520,
+                    lineNumber: 526,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/b_g4jMW8LyWHK/components/header.tsx",
-                lineNumber: 518,
+                lineNumber: 524,
                 columnNumber: 7
             }, this)
         ]
