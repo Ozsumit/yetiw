@@ -99,12 +99,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/Downloads/b_g4jMW8LyWHK/app/layout.tsx",
-            lineNumber: 39,
+            lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/b_g4jMW8LyWHK/app/layout.tsx",
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 5
     }, this);
 }

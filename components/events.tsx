@@ -3,43 +3,8 @@
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { CalendarDays, MapPin, ArrowUpRight } from "lucide-react";
-
+import { events } from "@/data/events";
 // Unified data structure matching the Swiss style
-const events = [
-  {
-    id: 1,
-    title: "Open Campus Day",
-    date: "2024-03-15",
-    category: "Admissions",
-    description:
-      "Join us for a campus tour and meet our faculty in an immersive open house experience.",
-    location: "Main Quad",
-    time: "09:00 AM",
-    accent: "bg-blue-600",
-  },
-  {
-    id: 2,
-    title: "Research Symposium",
-    date: "2024-04-02",
-    category: "Academic",
-    description:
-      "Explore groundbreaking research projects from our graduating scholars across all departments.",
-    location: "Science Hall",
-    time: "01:00 PM",
-    accent: "bg-violet-600",
-  },
-  {
-    id: 3,
-    title: "Career Fair 2024",
-    date: "2024-04-18",
-    category: "Professional",
-    description:
-      "Connect with leading industry employers, network with alumni, and explore internship opportunities.",
-    location: "Student Center",
-    time: "10:00 AM",
-    accent: "bg-emerald-600",
-  },
-];
 
 export default function EventsSnippet() {
   // Helper to format date

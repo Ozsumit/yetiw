@@ -62,7 +62,7 @@ export default function AboutPageNew() {
               {/* Replace src with real image */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
               <Image
-                src="/campus-life.jpg"
+                src="https://picsum.photos/1200/800?random=8"
                 alt="Students on campus"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -133,7 +133,7 @@ export default function AboutPageNew() {
               className="relative bg-muted rounded-3xl overflow-hidden group"
             >
               <Image
-                src="/library.jpg"
+                src="https://picsum.photos/1200/800?random=18"
                 alt="Library"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
@@ -169,7 +169,7 @@ export default function AboutPageNew() {
               </div>
               <div className="order-1 md:order-2 relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden">
                 <Image
-                  src="/history-bw.jpg"
+                  src="https://picsum.photos/1200/800?random=64"
                   alt="Old photo of college"
                   fill
                   className="object-cover"
@@ -181,7 +181,7 @@ export default function AboutPageNew() {
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden bg-muted">
                 <Image
-                  src="/modern-class.jpg"
+                  src="https://picsum.photos/1200/800?random=3"
                   alt="Modern Classroom"
                   fill
                   className="object-cover"

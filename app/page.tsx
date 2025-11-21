@@ -8,17 +8,18 @@ import News from "@/components/news";
 import CTA from "@/components/cta";
 import Footer from "@/components/footer";
 import FaqAndInquiry from "@/components/faqandinquiry";
+import NoticeSnippet from "@/components/notices";
 // import Header from "@/components/althero";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
-      {/* <Header /> */}
       <Header></Header>
       <Hero />
       <Programs />
       <Features />
       <Testimonials />
+      <NoticeSnippet />
       <Events />
       <News />
       <CTA />

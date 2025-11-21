@@ -49,7 +49,7 @@ const Icons = {
   ),
 };
 
-// --- Data for Ticker ---
+// --- Data ---
 const SEAT_DATA = [
   { course: "B.Sc Computer Science", seats: 4, total: 60 },
   { course: "MBA Finance", seats: 12, total: 120 },
@@ -59,18 +59,64 @@ const SEAT_DATA = [
   { course: "Cybersecurity", seats: 2, total: 25 },
 ];
 
-// 1. Video Carousel
+const SLIDES = [
+  {
+    video: "https://www.pexels.com/download/video/6187887/",
+    poster:
+      "https://images.pexels.com/photos/6187887/pexels-photo-7972356.jpeg?auto=compress&cs=tinysrgb&w=1600", // Library vibe
+  },
+  {
+    video: "https://www.pexels.com/download/video/34642433/",
+    poster:
+      "https://images.pexels.com/photos/34642433/pexels-photo-7972356.jpeg?auto=compress&cs=tinysrgb&w=1600", // Campus vibe
+  },
+  {
+    video: "https://www.pexels.com/download/video/3366872/",
+    poster:
+      "https://images.pexels.com/photos/3366872/pexels-photo-3738601.jpeg?auto=compress&cs=tinysrgb&w=1600", // Lab/Tech vibe
+  },
+];
+
+// --- Sub-Component: Video Slide ---
+// Handles the "Thumbnail -> Video" transition logic per slide
+const VideoSlide = ({ video, poster }: { video: string; poster: string }) => {
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
+  return (
+    <div className="relative flex-[0_0_100%] h-full">
+      {/* 1. Thumbnail Image (Shows immediately) */}
+      <img
+        src={poster}
+        alt="Background Preview"
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          isVideoLoaded ? "opacity-0" : "opacity-100"
+        }`}
+      />
+
+      {/* 2. Video (Hidden until loaded) */}
+      <video
+        className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto object-cover -translate-x-1/2 -translate-y-1/2"
+        src={video}
+        autoPlay
+        loop
+        muted
+        playsInline
+        // This event fires when enough data has loaded to play the frame
+        onLoadedData={() => setIsVideoLoaded(true)}
+      />
+
+      {/* Optional: Dark overlay for text readability (applied to both image and video) */}
+      <div className="absolute inset-0 bg-black/20" />
+    </div>
+  );
+};
+
+// --- Component: Video Carousel ---
 const VideoCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 60 }, [
     Autoplay({ delay: 8000, stopOnInteraction: false }) as any,
   ]);
   const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const videos = [
-    "https://www.pexels.com/download/video/6187887/",
-    "https://www.pexels.com/download/video/34642433/",
-    "https://www.pexels.com/download/video/3366872/",
-  ];
 
   const scrollTo = useCallback(
     (index: number) => emblaApi && emblaApi.scrollTo(index),
@@ -87,28 +133,22 @@ const VideoCarousel = () => {
   }, [emblaApi]);
 
   return (
-    <div className="absolute inset-0 overflow-hidden -z-10">
+    <div className="absolute inset-0 overflow-hidden -z-10 bg-zinc-900">
       <div className="h-full" ref={emblaRef}>
         <div className="flex h-full">
-          {videos.map((videoSrc, index) => (
-            <div className="relative flex-[0_0_100%] h-full" key={index}>
-              <video
-                className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto object-cover -translate-x-1/2 -translate-y-1/2"
-                src={videoSrc}
-                autoPlay
-                loop
-                muted
-                playsInline
-              />
-            </div>
+          {SLIDES.map((slide, index) => (
+            <VideoSlide key={index} video={slide.video} poster={slide.poster} />
           ))}
         </div>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/30 sm:via-black/60" />
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent md:hidden" />
 
+      {/* Gradients */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/30 sm:via-black/60 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent md:hidden pointer-events-none" />
+
+      {/* Pagination Dots */}
       <div className="absolute bottom-8 right-8 flex gap-3 z-20">
-        {videos.map((_, index) => (
+        {SLIDES.map((_, index) => (
           <button
             key={index}
             onClick={() => scrollTo(index)}
@@ -127,8 +167,6 @@ const VideoCarousel = () => {
 // --- Main Hero Component ---
 export default function Hero() {
   const [searchQuery, setSearchQuery] = useState("");
-
-  // Ref for the drag boundary (the entire hero section)
   const constraintsRef = useRef(null);
 
   const handleSearch = (e: React.FormEvent) => {
@@ -160,10 +198,9 @@ export default function Hero() {
         }
       `}</style>
 
-      {/* Pointer events none ensures clicks pass through the empty grid areas to the background */}
       <div className="relative max-w-7xl mx-auto px-6 py-24 w-full z-10 pointer-events-none">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* --- LEFT SIDE: Static Content (Re-enable pointers) --- */}
+          {/* --- LEFT SIDE --- */}
           <div className="pointer-events-auto space-y-10 text-center md:text-left animate-in fade-in duration-1000 slide-in-from-left-5">
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 backdrop-blur-md shadow-sm">
@@ -237,9 +274,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* --- RIGHT SIDE: Draggable Zone --- */}
+          {/* --- RIGHT SIDE: Draggable --- */}
           <div className="hidden md:flex h-full flex-col justify-center items-end gap-8 pointer-events-none">
-            {/* --- CARD 1: EVENT (Draggable Independent) --- */}
+            {/* Event Card */}
             <motion.div
               drag
               dragConstraints={constraintsRef}
@@ -248,11 +285,9 @@ export default function Hero() {
               whileDrag={{ scale: 1.05, cursor: "grabbing", zIndex: 50 }}
               className="pointer-events-auto cursor-grab w-80 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden"
             >
-              {/* Grip Handle */}
               <div className="w-full bg-black/20 h-4 flex items-center justify-center">
                 <Icons.Grip />
               </div>
-
               <div className="h-1.5 w-full bg-gradient-to-r from-blue-500 to-purple-500" />
               <div className="p-5 bg-black/40">
                 <div className="flex justify-between items-start mb-4">
@@ -273,14 +308,12 @@ export default function Hero() {
                     </span>
                   </div>
                 </div>
-
                 <div className="flex items-center gap-2 text-slate-300 text-sm mb-4">
                   <Icons.Clock />
                   <span>10:00 AM - Main Hall</span>
                 </div>
-
                 <button
-                  onPointerDownCapture={(e) => e.stopPropagation()} // Prevent drag when clicking button
+                  onPointerDownCapture={(e) => e.stopPropagation()}
                   className="w-full py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-bold border border-white/5 transition-colors"
                 >
                   Reserve Spot
@@ -288,7 +321,7 @@ export default function Hero() {
               </div>
             </motion.div>
 
-            {/* --- CARD 2: TICKER (Draggable Independent) --- */}
+            {/* Ticker Card */}
             <motion.div
               drag
               dragConstraints={constraintsRef}
@@ -297,11 +330,9 @@ export default function Hero() {
               whileDrag={{ scale: 1.05, cursor: "grabbing", zIndex: 50 }}
               className="pointer-events-auto cursor-grab w-72 bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden flex flex-col shadow-2xl"
             >
-              {/* Grip Handle */}
               <div className="w-full bg-white/5 h-4 flex items-center justify-center border-b border-white/5">
                 <Icons.Grip />
               </div>
-
               <div className="px-5 py-3 border-b border-white/10 bg-white/5 flex items-center justify-between">
                 <span className="text-xs font-bold text-white uppercase tracking-wider flex items-center gap-2">
                   <span className="relative flex h-2 w-2">
@@ -311,12 +342,9 @@ export default function Hero() {
                   Live Seat Status
                 </span>
               </div>
-
               <div className="relative h-48 overflow-hidden group">
                 <div className="absolute top-0 left-0 right-0 h-6 bg-gradient-to-b from-black/80 to-transparent z-10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 right-0 h-6 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none" />
-
-                {/* Stop drag propagation on scrollable area if needed, though dragging the whole card is usually preferred here */}
                 <div className="animate-vertical-scroll group-hover:pause-animation">
                   {[...SEAT_DATA, ...SEAT_DATA].map((item, i) => (
                     <div

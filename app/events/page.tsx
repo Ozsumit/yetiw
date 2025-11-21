@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
+import { events } from "@/data/events";
 // --- Types & Data ---
 
 type Event = {
@@ -24,53 +24,6 @@ type Event = {
   time: string;
   accent: string; // Tailwind color class
 };
-
-const eventsData: Event[] = [
-  {
-    id: 1,
-    title: "Open Campus Day",
-    date: "2024-03-15",
-    category: "Admissions",
-    description:
-      "Join us for a campus tour and meet our faculty in an immersive open house experience.",
-    location: "Main Quad",
-    time: "09:00 AM",
-    accent: "bg-blue-600",
-  },
-  {
-    id: 2,
-    title: "Design Workshop",
-    date: "2024-03-22",
-    category: "Workshop",
-    description:
-      "Hands-on session focusing on Swiss typography and grid systems.",
-    location: "Studio A",
-    time: "02:00 PM",
-    accent: "bg-orange-500",
-  },
-  {
-    id: 3,
-    title: "Research Symposium",
-    date: "2024-04-02",
-    category: "Academic",
-    description:
-      "Explore groundbreaking research projects from our graduating scholars.",
-    location: "Science Hall",
-    time: "01:00 PM",
-    accent: "bg-violet-600",
-  },
-  {
-    id: 4,
-    title: "Career Fair 2024",
-    date: "2024-04-18",
-    category: "Professional",
-    description:
-      "Connect with leading industry employers and explore internship opportunities.",
-    location: "Student Center",
-    time: "10:00 AM",
-    accent: "bg-emerald-600",
-  },
-];
 
 // --- Helper Functions ---
 
@@ -94,8 +47,8 @@ const SwissCalendar = ({
   onDateSelect: (date: string | null) => void;
   selectedDate: string | null;
 }) => {
-  // Default to March 2024 for demo purposes since data starts there
-  const [currentDate, setCurrentDate] = useState(new Date(2024, 2, 1));
+  // UPDATED: Initialize with the current date instead of hardcoded March 2024
+  const [currentDate, setCurrentDate] = useState(new Date());
 
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
@@ -205,8 +158,8 @@ export default function EventsPage() {
 
   // Filter logic
   const displayedEvents = selectedDate
-    ? eventsData.filter((e) => e.date === selectedDate)
-    : eventsData;
+    ? events.filter((e) => e.date === selectedDate)
+    : events;
 
   // Date formatter for display
   const getDateParts = (dateString: string) => {
@@ -243,7 +196,7 @@ export default function EventsPage() {
 
                 {/* Functional Calendar */}
                 <SwissCalendar
-                  events={eventsData}
+                  events={events}
                   selectedDate={selectedDate}
                   onDateSelect={setSelectedDate}
                 />
